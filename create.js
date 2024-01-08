@@ -9,7 +9,7 @@ const scrappey = new Scrappey("API_KEY_HERE");
 /**
  * Fill the details to register with on OSRS
  */
-const EMAIL = 'darewuinjose@gmail.com'
+const EMAIL = '@gmail.com'
 const PASSWORD = 'p0o9i8u7'
 const DAY = '22'
 const MONTH = '01'

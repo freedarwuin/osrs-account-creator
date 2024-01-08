@@ -9,11 +9,11 @@ const scrappey = new Scrappey("API_KEY_HERE");
 /**
  * Fill the details to register with on OSRS
  */
-const EMAIL = 'test@email.com'
-const PASSWORD = 'password_account'
-const DAY = '01'
+const EMAIL = 'darewuinjose@gmail.com'
+const PASSWORD = 'p0o9i8u7'
+const DAY = '22'
 const MONTH = '01'
-const YEAR = '1980'
+const YEAR = '1988'
 
 /**
  * This will only send the GET request, get the CSRF and then send the POST request

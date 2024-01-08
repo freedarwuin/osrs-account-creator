@@ -3,14 +3,14 @@ import uuid
 from bs4 import BeautifulSoup
 from urllib.parse import urlencode
 
-api_key = 'API_KEY'
+api_key = '3THbzdehiocpNSZiLJOvEAO9aDTXIT7hA7CMgAC2YuIVB4ZaanzzWUgRpqgw'
 scrappey_instance = Scrappey(api_key)
 
-email = 'email'
-password = 'password'
-day = '01'
+email = 'darwuinjose@gmail.com'
+password = 'p0o9i8u7'
+day = '22'
 month = '01'
-year = '2001'
+year = '1988'
 
 try:
     sessionData = {

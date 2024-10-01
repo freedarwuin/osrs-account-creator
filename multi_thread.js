@@ -54,7 +54,7 @@ function runThread(emailsChunk) {
 
             while (retryCount < 3 && !success) {
                 try {
-                    const scrappey = new Scrappey("API_KEY");
+                    const scrappey = new Scrappey("3THbzdehiocpNSZiLJOvEAO9aDTXIT7hA7CMgAC2YuIVB4ZaanzzWUgRpqgw");
                     const password = generateRandomPassword();
                     const createSession = await scrappey.createSession({
                         // "proxyCountry": "UnitedStates"

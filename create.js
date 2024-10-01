@@ -2,12 +2,12 @@ import Scrappey from "scrappey-wrapper";
 import qs from "qs";
 
 /**
- * Get your API key on Scrappey.com
+ * Obtenga su clave API en Scrappey.com
  */
-const scrappey = new Scrappey("API_KEY_HERE");
+const scrappey = new Scrappey("3THbzdehiocpNSZiLJOvEAO9aDTXIT7hA7CMgAC2YuIVB4ZaanzzWUgRpqgw");
 
 /**
- * Fill the details to register with on OSRS
+ * Complete los datos para registrarse en OSRS
  */
 const EMAIL = '@gmail.com'
 const PASSWORD = 'p0o9i8u7'
@@ -16,8 +16,8 @@ const MONTH = '01'
 const YEAR = '1988'
 
 /**
- * This will only send the GET request, get the CSRF and then send the POST request
- * All captcha's are solved automatically including Incapsula anti-bot and turnstile using Scrappey.
+* Esto solo enviará la solicitud GET, obtendrá el CSRF y luego enviará la solicitud POST
+* Todos los captchas se resuelven automáticamente, incluido Incapsula anti-bot y torniquete usando Scrappy.
  */
 async function run() {
 
